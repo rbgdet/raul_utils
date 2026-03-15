@@ -1,0 +1,1 @@
+from .healpy_mollweide import plot_radec_mollweide

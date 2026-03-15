@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "healpy_tools" # Change this to your desired package name
+version = "0.1.0"
+description = "A collection of plotting tools for Healpy"
+readme = "README.md" # Optional, but recommended to add later
+requires-python = ">=3.8"
+dependencies = [
+    "healpy",
+    "numpy",
+    "matplotlib"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
